@@ -1,0 +1,122 @@
+ @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Tilt+Warp&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+h1{
+    font-family: 'Tilt Warp', cursive;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body,html{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+}
+
+.Card{  
+    width: 800px;
+    display: flex;
+}
+
+.sideBranco{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+
+.sidePreto{
+    width: 40%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+}
+
+.signIn{
+    margin: 20px 0;
+    font-size: 45px;
+}
+
+.Credenciais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.credencial{
+    border: none;
+    border-bottom: 3px solid black;
+    padding: 3px;
+    margin-bottom: 30px;
+    width: 250px;
+}
+
+.checkBox{ 
+    margin-bottom: 15px;
+}
+
+.Botao{
+    width:160px;
+    padding: 10px 0;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 25px;
+}
+
+label{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.help{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.createAccount{
+    color: black;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 15px;
+    
+}
+
+.Texto{
+    width: 80%;
+}
+
+.TituloPP{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.paragrafoPP{
+    font-size: 17px;
+    
+}
+
+.botaoPP{
+    width: 240px;
+    padding: 15px 0;
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+}
